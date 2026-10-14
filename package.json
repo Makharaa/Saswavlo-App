@@ -1,0 +1,41 @@
+{
+  "name": "driveexam-v20",
+  "version": "20.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test:core": "npm run test:compile && node tests/run-core.cjs",
+    "preflight": "npm run test:core && npm run typecheck && npm run build && npm run test:map-worker",
+    "test:map-worker": "node scripts/check-map-worker.cjs",
+    "test:compile": "tsc --target ES2022 --module commonjs --moduleResolution node --strict --skipLibCheck --esModuleInterop --outDir .test-build src/utils/route-engine.ts src/utils/route-editor.ts src/utils/driving-evaluator.ts src/utils/session-normalizer.ts src/utils/gps-filter.ts src/utils/route-readiness.ts src/services/map-engine.ts src/services/session-queue.ts src/services/session-store.ts src/utils/geo.ts src/types/domain.ts src/utils/session-insights.ts src/utils/trace-review.ts src/lib/database-schema.ts src/lib/app-info.ts src/utils/session-validation.ts src/utils/driving-simulation.ts src/utils/field-recording.ts src/utils/road-trace-match.ts src/utils/field-recording-matcher.ts src/utils/navigation-map-clarity.ts src/utils/maplibre-style-guard.ts src/utils/route-direction-image.ts src/utils/external-route-import.ts src/utils/checkpoint-speech-delivery.ts src/utils/checkpoint-speech-policy.ts src/utils/navigation-route-offset.ts src/utils/navigation-route-style.ts src/utils/editor-centerline.ts src/utils/selected-city.ts",
+    "replay:gps": "npm run test:compile && node scripts/replay-gps.cjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "maplibre-gl": "6.13.0",
+    "next": "15.5.27",
+    "pg": "^8.16.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "@types/node": "^24.3.0",
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "fake-indexeddb": "6.2.5",
+    "typescript": "^5.9.2"
+  },
+  "overrides": {
+    "postcss": "8.5.23",
+    "sharp": "0.35.5"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

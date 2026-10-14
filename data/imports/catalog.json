@@ -1,0 +1,26 @@
+[
+  {
+    "source": "simulatori-gori-route-1",
+    "name": "N1",
+    "city": "გორი",
+    "sourceId": -1
+  },
+  {
+    "source": "simulatori-gori-route-2",
+    "name": "N2",
+    "city": "გორი",
+    "sourceId": -2
+  },
+  {
+    "source": "simulatori-gori-route-3",
+    "name": "N3",
+    "city": "გორი",
+    "sourceId": -3
+  },
+  {
+    "source": "simulatori-gori-route-4",
+    "name": "N4",
+    "city": "გორი",
+    "sourceId": -4
+  }
+]

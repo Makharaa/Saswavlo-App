@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "description": "Licensed Simulatori.ge Gori route voice pack (only).",
+  "phrases": {
+    "simulatori-gori/turn-left-soon": "simulatori-gori-turn-left-soon.mp3",
+    "simulatori-gori/turn-right-soon": "simulatori-gori-turn-right-soon.mp3",
+    "simulatori-gori/turn-left-300m": "simulatori-gori-turn-left-300m.mp3",
+    "simulatori-gori/turn-right-300m": "simulatori-gori-turn-right-300m.mp3",
+    "simulatori-gori/turn-right-500m": "simulatori-gori-turn-right-500m.mp3",
+    "simulatori-gori/turn-left-500m": "simulatori-gori-turn-left-500m.mp3",
+    "simulatori-gori/straight": "simulatori-gori-straight.mp3",
+    "simulatori-gori/straight-soon": "simulatori-gori-straight-soon.mp3",
+    "simulatori-gori/straight-300m": "simulatori-gori-straight-300m.mp3",
+    "simulatori-gori/roundabout-straight-300m": "simulatori-gori-roundabout-straight-300m.mp3",
+    "simulatori-gori/roundabout-straight-500m": "simulatori-gori-roundabout-straight-500m.mp3",
+    "simulatori-gori/exam-start": "simulatori-gori-exam-start.mp3",
+    "simulatori-gori/at-finish": "simulatori-gori-at-finish.mp3"
+  }
+}

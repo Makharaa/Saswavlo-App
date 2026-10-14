@@ -1,0 +1,34 @@
+{
+  "release": "R35",
+  "checkedAt": "2026-10-08T06:43:28.401705+00:00",
+  "coreTests": 92,
+  "coreFailures": 0,
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "workerHttp": "passed",
+  "compiledHttp": {
+    "databaseFixture": "isolated PGlite",
+    "routingFixture": "local simulated OSRM",
+    "schemaVersion": 13,
+    "matchedFixes": 5,
+    "matchHttpStatus": 200,
+    "unauthenticatedMatchHttpStatus": 403,
+    "protectedPages": 5,
+    "replayedCheckpoints": 2,
+    "idempotentRetry": true
+  },
+  "limits": {
+    "realVehicleRun": false,
+    "browserVisualCheck": false,
+    "liveOSRMAccuracyMeasurement": false,
+    "existingDamagedRoutesAutomaticallyRepaired": false
+  },
+  "gpsPolicy": {
+    "maximumAccuracyMeters": 35,
+    "maximumWindowFixes": 32,
+    "lookaheadMovingFixes": 2,
+    "minimumMatchingConfidence": 0.8,
+    "maximumResumeDistanceMeters": 25,
+    "maximumDiagnosticObservations": 6000
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+.test-build/
+.next/
+.env.local
+backups/
+*.tar.gz
+*.log
+.DS_Store

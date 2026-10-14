@@ -1,0 +1,11 @@
+{
+  "name": "Simulatori.ge - Gori N4 (B/BE)",
+  "originalPointCount": 274,
+  "pointCount": 310,
+  "eventCount": 38,
+  "voiceCheckpointCount": 36,
+  "omittedSystemCount": 2,
+  "distanceMeters": 11380.05647883166,
+  "maxAnchorOffsetMeters": 9.844976976785223e-10,
+  "missingAudio": []
+}

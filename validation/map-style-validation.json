@@ -1,0 +1,38 @@
+{
+  "release": "R35",
+  "checkedAt": "2026-10-08T07:17:36.621087+00:00",
+  "coreTests": 98,
+  "coreFailures": 0,
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "workerHttp": "passed",
+  "mapStyleChecks": {
+    "newRegressionTests": 6,
+    "filterEvaluator": "installed @maplibre/maplibre-gl-style-spec 26.4.4",
+    "reportedNullWarningsReproduced": true,
+    "invalidReferenceWarningsAfterTransform": 0,
+    "numericReferenceSemanticsPreserved": true,
+    "initialThemeTransform": "day/night lifecycle fixtures",
+    "missingImageResolution": "same-request resolver lifecycle fixtures",
+    "localArrowStyleValidation": "passed",
+    "standaloneArrowPreview": "inspected"
+  },
+  "compiledHttp": {
+    "databaseFixture": "isolated PGlite",
+    "routingFixture": "local simulated OSRM",
+    "schemaVersion": 13,
+    "protectedPages": 5,
+    "matchedFixes": 5,
+    "matchHttpStatus": 200,
+    "unauthenticatedMatchHttpStatus": 403,
+    "replayedCheckpoints": 2,
+    "idempotentRetry": true
+  },
+  "limits": {
+    "realVehicleRun": false,
+    "browserVisualCheck": false,
+    "liveOSRMAccuracyMeasurement": false,
+    "currentFullUpstreamStylesDownloaded": false,
+    "blockedClientResourceIdentified": false
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "route": {
+    "name": "რეალური GPS-ის განმეორებითი ტესტი",
+    "city": "გორი",
+    "description": "გაჩერება და მარცხენა მოსახვევი",
+    "isPublished": false,
+    "coordinates": [
+      [
+        44.1,
+        41.98
+      ],
+      [
+        44.10048391025196,
+        41.98
+      ],
+      [
+        44.10096782050391,
+        41.98
+      ],
+      [
+        44.10145173075587,
+        41.98
+      ],
+      [
+        44.10145173075587,
+        41.98035972840505
+      ],
+      [
+        44.10145173075587,
+        41.98071945681011
+      ]
+    ],
+    "waypoints": [
+      [
+        44.1,
+        41.98
+      ],
+      [
+        44.10145173075587,
+        41.98071945681011
+      ]
+    ],
+    "speedZones": [
+      {
+        "id": "all",
+        "startCoordinateIndex": 0,
+        "endCoordinateIndex": 5,
+        "speedLimit": 40,
+        "label": "40"
+      }
+    ],
+    "checkpoints": [
+      {
+        "orderIndex": 0,
+        "type": "stop",
+        "title": "გაჩერება",
+        "voice": "შეასრულე დავალება",
+        "ttsVoice": "ka-GE-EkaNeural",
+        "speedLimit": null,
+        "triggerMeters": 60,
+        "routeCoordinateIndex": 2,
+        "lng": 44.10096782050391,
+        "lat": 41.98
+      },
+      {
+        "orderIndex": 1,
+        "type": "left",
+        "title": "მარცხნივ",
+        "voice": "შეასრულე დავალება",
+        "ttsVoice": "ka-GE-EkaNeural",
+        "speedLimit": null,
+        "triggerMeters": 60,
+        "routeCoordinateIndex": 3,
+        "lng": 44.10145173075587,
+        "lat": 41.98
+      }
+    ]
+  },
+  "trace": [
+    {
+      "observedAt": 1800000000000,
+      "raw": {
+        "lng": 44.1,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000000000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.1,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000000000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000001000,
+      "raw": {
+        "lng": 44.10012097756299,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000001000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.10012097756299,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000001000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000002000,
+      "raw": {
+        "lng": 44.10024195512598,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000002000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.10024195512598,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000002000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000003000,
+      "raw": {
+        "lng": 44.10036293268897,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000003000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.10036293268897,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000003000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000004000,
+      "raw": {
+        "lng": 44.10048391025196,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000004000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.10048391025196,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000004000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000005000,
+      "raw": {
+        "lng": 44.100604887814946,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000005000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.100604887814946,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000005000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000006000,
+      "raw": {
+        "lng": 44.10072586537793,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000006000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.10072586537793,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000006000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000007000,
+      "raw": {
+        "lng": 44.100846842940925,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000007000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.100846842940925,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000007000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000008000,
+      "raw": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000008000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000008000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000009000,
+      "raw": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000009000,
+        "speedMps": 0,
+        "heading": null
+      },
+      "sample": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000009000,
+        "speedMps": 0,
+        "heading": null
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000010000,
+      "raw": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000010000,
+        "speedMps": 0,
+        "heading": null
+      },
+      "sample": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000010000,
+        "speedMps": 0,
+        "heading": null
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000011000,
+      "raw": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000011000,
+        "speedMps": 0,
+        "heading": null
+      },
+      "sample": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000011000,
+        "speedMps": 0,
+        "heading": null
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000012000,
+      "raw": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000012000,
+        "speedMps": 0,
+        "heading": null
+      },
+      "sample": {
+        "lng": 44.10096782050391,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000012000,
+        "speedMps": 0,
+        "heading": null
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000013000,
+      "raw": {
+        "lng": 44.101088798066904,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000013000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.101088798066904,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000013000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000014000,
+      "raw": {
+        "lng": 44.10120977562989,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000014000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.10120977562989,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000014000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000015000,
+      "raw": {
+        "lng": 44.101330753192876,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000015000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.101330753192876,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000015000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000016000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000016000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.98,
+        "accuracy": 3,
+        "timestamp": 1800000016000,
+        "speedMps": 10,
+        "heading": 90
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000017000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.98008993210126,
+        "accuracy": 3,
+        "timestamp": 1800000017000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.98008993210126,
+        "accuracy": 3,
+        "timestamp": 1800000017000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000018000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.980179864202526,
+        "accuracy": 3,
+        "timestamp": 1800000018000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.980179864202526,
+        "accuracy": 3,
+        "timestamp": 1800000018000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000019000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.98026979630379,
+        "accuracy": 3,
+        "timestamp": 1800000019000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.98026979630379,
+        "accuracy": 3,
+        "timestamp": 1800000019000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000020000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.98035972840505,
+        "accuracy": 3,
+        "timestamp": 1800000020000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.98035972840505,
+        "accuracy": 3,
+        "timestamp": 1800000020000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000021000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.980449660506316,
+        "accuracy": 3,
+        "timestamp": 1800000021000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.980449660506316,
+        "accuracy": 3,
+        "timestamp": 1800000021000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000022000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.98053959260758,
+        "accuracy": 3,
+        "timestamp": 1800000022000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.98053959260758,
+        "accuracy": 3,
+        "timestamp": 1800000022000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000023000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.98062952470884,
+        "accuracy": 3,
+        "timestamp": 1800000023000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.98062952470884,
+        "accuracy": 3,
+        "timestamp": 1800000023000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "accepted": true,
+      "visible": true
+    },
+    {
+      "observedAt": 1800000024000,
+      "raw": {
+        "lng": 44.10145173075587,
+        "lat": 41.98071945681011,
+        "accuracy": 3,
+        "timestamp": 1800000024000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "sample": {
+        "lng": 44.10145173075587,
+        "lat": 41.98071945681011,
+        "accuracy": 3,
+        "timestamp": 1800000024000,
+        "speedMps": 10,
+        "heading": 0
+      },
+      "accepted": true,
+      "visible": true
+    }
+  ]
+}

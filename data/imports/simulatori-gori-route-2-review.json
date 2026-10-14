@@ -1,0 +1,11 @@
+{
+  "name": "Simulatori.ge - Gori N2 (B/BE)",
+  "originalPointCount": 331,
+  "pointCount": 362,
+  "eventCount": 33,
+  "voiceCheckpointCount": 31,
+  "omittedSystemCount": 2,
+  "distanceMeters": 12889,
+  "maxAnchorOffsetMeters": 6.36845437657908,
+  "missingAudio": []
+}
